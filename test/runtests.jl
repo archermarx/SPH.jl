@@ -20,7 +20,7 @@ end
 @testset "SPH.jl" begin
    xs = rand(1000) * 6 .- 1
    fs_hardcoded = M6_hardcoded.(xs)
-   fs_procedural = SPH._M6.(xs)
+   fs_procedural = M6.(xs)
    @test isapprox.(fs_hardcoded, fs_procedural, atol=1e-8) |> all
    #@show xs[a], fs_hardcoded[a], fs_procedural[a]
 end
