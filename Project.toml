@@ -1,0 +1,13 @@
+name = "SPH"
+uuid = "df2485c2-37c5-459c-ab44-70b522d49cc7"
+authors = ["Thomas Marks <marksta@umich.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
