@@ -21,9 +21,7 @@ version = "2.2.1"
 
 [[Piecewise]]
 deps = ["Measurements"]
-git-tree-sha1 = "d236c8913b8c1b04c5ad77333a196ff09b4b1b7f"
-repo-rev = "master"
-repo-url = "https://github.com/archermarx/Piecewise.jl"
+path = "C:\\Users\\thoma\\.julia\\dev\\Piecewise"
 uuid = "da5dcb9c-6581-414c-b5f9-c7d9cf6920b7"
 version = "0.1.0"
 

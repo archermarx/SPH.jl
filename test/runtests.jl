@@ -1,7 +1,7 @@
 using SPH
-using Test, Plots
+using Test
 
-default(;xlims=(0,3), ylims=(-2, 1), label="")
+#default(;xlims=(0,3), ylims=(-2, 1), label="")
 
 @testset "SPH.jl" begin
     
