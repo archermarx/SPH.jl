@@ -1,0 +1,53 @@
+# This file is machine-generated - editing it directly is not advised
+
+[[Calculus]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "f641eb0a4f00c343bbc32346e1217b86f3ce9dad"
+uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
+version = "0.5.1"
+
+[[Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[[LinearAlgebra]]
+deps = ["Libdl"]
+uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[[Measurements]]
+deps = ["Calculus", "LinearAlgebra", "RecipesBase", "Requires"]
+git-tree-sha1 = "f6164478d4e5aab3f66ee265e3569603ad0eca12"
+uuid = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+version = "2.2.1"
+
+[[Piecewise]]
+deps = ["Measurements"]
+git-tree-sha1 = "d236c8913b8c1b04c5ad77333a196ff09b4b1b7f"
+repo-rev = "master"
+repo-url = "https://github.com/archermarx/Piecewise.jl"
+uuid = "da5dcb9c-6581-414c-b5f9-c7d9cf6920b7"
+version = "0.1.0"
+
+[[Random]]
+deps = ["Serialization"]
+uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[[RecipesBase]]
+git-tree-sha1 = "58de8f7e33b7fda6ee39eff65169cd1e19d0c107"
+uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+version = "1.0.2"
+
+[[Requires]]
+deps = ["UUIDs"]
+git-tree-sha1 = "8c08d0c7812169e438a8478dae2a529377ad13f7"
+uuid = "ae029012-a4dd-5104-9daa-d747884805df"
+version = "1.0.2"
+
+[[SHA]]
+uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+
+[[Serialization]]
+uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+[[UUIDs]]
+deps = ["Random", "SHA"]
+uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"

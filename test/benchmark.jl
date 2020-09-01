@@ -15,10 +15,11 @@ function M6_hardcoded(q)
     end
 end
 
-println("Kernal function benchmarks")
-println("Hardcoded")
+println("Kernel function benchmarks")
+println("Hardcoded M6")
 @btime $M6_hardcoded(x) setup=(x=3*rand())
-println("Programmatic (and 1st and second derivatives")
+
+println("Programmatic M6 (and 1st and second derivatives")
 @btime $M6[1](x) setup=(x=3*rand())
 @btime $(differentiate(M6[1]))(x) setup=(x=3*rand())
 @btime $(differentiate(M6[1], 2))(x) setup=(x=3*rand())
