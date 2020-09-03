@@ -1,6 +1,7 @@
 using BenchmarkTools
 using SPH
 
+
 function M6_hardcoded(q)
     if q < 0.0
         return 0.0
